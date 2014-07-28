@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login</title>
+</head>
+<body>
+    {%  if form_error %}
+        <p>{{ form_error }}</p>
+    {% endif %}
+    <form name="loginForm" method="post" action="/gm/login/">{% csrf_token %}
+        <input type="text" name="user_id" id="user_id">
+        <input type="password" name="user_pw" id="user_pw">
+    <input type="submit" value="LOGIN">
+    </form>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="717508191">
+    <data-source source="LOCAL" name="Data Source" uuid="35e8ae2f-88ff-47e4-90da-b655bae86ae5">
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/the_kingdom</jdbc-url>
+      <user-name>octy1011</user-name>
+      <user-password>df9ddf99df9ddf9edfc9dfc0</user-password>
+      <schema-pattern>the_kingdom.*</schema-pattern>
+      <default-schemas>the_kingdom.*</default-schemas>
+      <default-dialect>MySQL</default-dialect>
+      <libraries>
+        <library>
+          <url>file://D:/util/mysql-connector-java-5.1.31-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Django default" uuid="eee04178-fb5e-455d-971c-c0b48af49738">
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/the_kingdom</jdbc-url>
+      <user-name>octy1011</user-name>
+      <user-password>df9ddf99df9ddf9edfc9dfc0</user-password>
+      <libraries>
+        <library>
+          <url>file://D:/util/mysql-connector-java-5.1.31-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
